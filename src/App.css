@@ -23,7 +23,7 @@ body {
   margin-bottom: 60px;
 }
 .container .img {
-  height: 450px;
+  height: 500px;
   background-size: cover;
   object-fit: cover;
   border-radius: 10px;
@@ -34,9 +34,10 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+  overflow-y: scroll;
 }
 .container .main-content {
-  height: 450px;
+  height: 500px;
   background-color: rgb(237, 237, 244);
   border-radius: 10px;
   border: 1px solid silver;
@@ -90,7 +91,6 @@ body {
   font-size: 20px;
   width: 95%;
   margin: 10px auto;
-  overflow-y: hidden;
 }
 .navbar-text .text-title {
   margin-bottom: 15px;
